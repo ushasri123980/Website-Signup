@@ -45,7 +45,7 @@ client.setConfig({
 
 const run = async () => {
   try {
-    const response = await client.lists.batchListMembers("657bcad3804", jsondata);
+    const response = await client.lists.batchListMembers("57bcad3804", jsondata);
     if(response.error_count===0)
   {
     // res.write("Success");
